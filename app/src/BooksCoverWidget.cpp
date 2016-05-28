@@ -107,7 +107,7 @@ private:
     static bool iMissing;
 };
 
-const char* BooksCoverWidget::DefaultImage::iImageName = "default-cover.jpg";
+const char* BooksCoverWidget::DefaultImage::iImageName = "default-cover.png";
 QImage* BooksCoverWidget::DefaultImage::iImage = NULL;
 QImage* BooksCoverWidget::DefaultImage::iScaledImage = NULL;
 int BooksCoverWidget::DefaultImage::iRefCount = 0;

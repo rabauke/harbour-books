@@ -94,7 +94,7 @@ CoverBackground {
         borderColor: Theme.primaryColor
         synchronous: true
         book: root.book ? root.book : null
-        defaultCover: "images/default-cover.jpg"
+        defaultCover: "images/default-cover.png"
         stretch: true
     }
 
@@ -104,7 +104,7 @@ CoverBackground {
             fill: parent
         }
         text: book ? book.title : ""
-        visible: bookCover.empty
-        color: "#FFE898"
+        visible: true // bookCover.empty
+        color: Theme.primaryColor // "#FFE898"
     }
 }
